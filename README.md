@@ -9,6 +9,13 @@ mkdir data
 sudo chown 1000 data 
 ```
 
+### Jenkins update for python-dev 
+
+```
+docker pull jenkins/jenkins:latest 
+docker build -f Dockerfile -t jenkins-python-dev . 
+```
+
 ### Run 
 
 ```

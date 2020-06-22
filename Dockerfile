@@ -5,10 +5,10 @@ RUN apt-get update
 #=========
 # Python
 #=========
-RUN apt-get install -y python3.8 \
-                       python3.8-dev \
-                       python3.8-pip \
-                       python3.8-venv \
+RUN apt-get install -y python3 \
+                       python3-dev \
+                       python3-pip \
+                       python3-venv \
                        xvfb \
                        build-essential \
                        libssl-dev \
